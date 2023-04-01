@@ -1,7 +1,7 @@
 name: Build & Release
 
 env:
-  ACTIONS_ALLOW_UNSECURE_COMMANDS: 1
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   
 on:
   push:
