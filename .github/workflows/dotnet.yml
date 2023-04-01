@@ -2,7 +2,11 @@ name: Build & Release
 
 env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
-  
+
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   push:
     tags:
